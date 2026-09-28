@@ -333,7 +333,7 @@ STATIC_ROOT = (
 STORAGES = {
     "default": {
         "BACKEND":
-            "django.core.files.storage.FileSystemStorage",
+            "config.storage.CloudinaryMediaStorage",
     },
 
     "staticfiles": {
